@@ -16,13 +16,13 @@ let package = Package(
 		.target(name: "GXCoreModule_SD_DeviceAuthenticationWrapper",
 				dependencies: [
 					"GXCoreModule_SD_DeviceAuthentication",
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.tvOS, .watchOS, .iOS]))
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.watchOS, .tvOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_DeviceAuthentication",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_DeviceAuthentication-1.0.0-beta+20230428202437.xcframework.zip",
-			checksum: "9577ea86087b7fbb31cfb658aa1d836f6ba134a149a604cf4e3cf9c78c680b9f"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_DeviceAuthentication-1.0.0-beta+20230502131235.xcframework.zip",
+			checksum: "4af0a01ec9add08518360abbfd68ae021019566950241ce4ca220fc2b24c38a4"
 		)
 	]
 )
