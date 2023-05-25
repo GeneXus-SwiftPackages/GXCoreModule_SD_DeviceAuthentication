@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_DeviceAuthentication",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_DeviceAuthentication-1.0.0-beta+20230525122919.xcframework.zip",
-			checksum: "953e6974f8b4faa3829b698099cdd9d205269a09fdba691b5320232f356a4eb1"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_DeviceAuthentication-1.0.0-beta+20230525135158.xcframework.zip",
+			checksum: "5bc8a8165f497e0f011a9f6fa26c61b72b77b0fd1e3c39aa3907c0928806b09a"
 		)
 	]
 )
