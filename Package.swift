@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreModule_SD_DeviceAuthenticationWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.4.30")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git", exact: "1.4.31")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_DeviceAuthenticationWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_DeviceAuthentication",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_DeviceAuthentication-1.4.30.xcframework.zip",
-			checksum: "f3623c8447c1016ae677ef962822f1a7f8af80410f84b579ea88e8131e7fcaf9"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_DeviceAuthentication-1.4.31.xcframework.zip",
+			checksum: "e2ed09a4ca6395421d016cd80e694d86d4b9af5740e878e6372f8056beb9f6ff"
 		)
 	]
 )
